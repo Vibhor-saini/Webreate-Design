@@ -1,0 +1,52 @@
+.main{
+    color: white;
+position: absolute; 
+ top: 260px;
+ left: 80px; 
+ height: 200px;
+ width: 400px;
+ border: 3px solid rgb(245, 134, 38);
+ text-align: center;
+ border-radius: 20px;
+ 
+}
+
+.main .content{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.main .content input{
+    position: absolute;
+    /* top: 50px; */
+    left: 110px;
+    background-color:  rgb(95, 92, 92);
+}
+
+.main .left{
+    position: absolute;
+    /* margin-bottom: 20px; */
+    bottom: 170px;
+    right: 370px;
+    border-radius: 100%;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(245, 134, 38) ;
+}
+
+.main .left i{
+    font-size: 2rem;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.content .login p{
+    position: absolute;
+    top: 134px;
+    color: rgb(245, 134, 38);
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right , black , rgb(95, 92, 92));
+}

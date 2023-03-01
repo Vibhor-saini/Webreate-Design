@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: auto;
+ 
+}
+
+.left img{
+    height: 60px;
+}
+.left span{
+    /* height: 60px; */
+    position: absolute;
+    color:  rgb(245, 134, 38);
+    left: 80px;
+    top: 10px;
+    font-size: 3rem;
+}
+
+.navbar .right {
+    background-color: rgb(245, 134, 38);
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.navbar .right p{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 25px;
+}
